@@ -4,7 +4,7 @@
 
 ## :rocket: Sobre o desafio
 
-Nesse desafio continuamos desenvolvendo a aplicação de gestão de transações, treinando o que você foi aprendido sobre Node.js com TypeScript, e agora incluindo o uso de banco de dados com o TypeORM e envio de arquivos com o Multer.
+Nesse desafio continuamos desenvolvendo a aplicação de gestão de transações, treinando o que foi aprendido sobre Node.js com TypeScript, e agora incluindo o uso de banco de dados com o TypeORM e envio de arquivos com o Multer.
 
 Essa é uma aplicação que armazena transações financeiras de entrada e saída e permite o cadastro e a listagem dessas transações, além de permitir a criação de novos registros no banco de dados a partir do envio de um arquivo csv.
 
@@ -122,7 +122,7 @@ O desafio foi resolvido seguindo a técnica de TDD. Os testes podem ser encontra
 yarn test
 ```
 
-Para que os testes possam ser executados corretamente é necessário que exista uma base de dados local na sua máquina com o nome gostack_desafio06_tests. Para cada teste existe uma breve descrição do que a aplicação executa para que o mesmo passe.
+Para que os testes possam ser executados corretamente é necessário que exista uma base de dados local na sua máquina com o nome gostack_desafio05_tests. Para cada teste existe uma breve descrição do que a aplicação executa para que o mesmo passe.
 
 - **`should be able to create a new transaction`**: Para que esse teste passe, a aplicação permite que uma transação seja criada, e retorna um json com a transação criada.
 
